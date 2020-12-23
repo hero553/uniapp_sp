@@ -4,6 +4,11 @@
       "@dcloudio/types",
       "miniprogram-api-typings",
       "mini-types"
-    ]
-  }
+    ],
+    "baseUrl": "./",
+    "paths": {
+        "@/*": ["src/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
 }
